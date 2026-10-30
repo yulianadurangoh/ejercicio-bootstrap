@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap</title>
+ <link href="css/styles.css" rel="stylesheet">
+</head>
+<body id="inicio">
+  <nav class="menu">
+    <div class="contenedor menu-contenido">
+      <a class="logo" href="#inicio">Bootstrap</a>
+      <input type="checkbox" id="abrir-menu" class="check-menu">
+      <label for="abrir-menu" class="boton-menu">
+        Menu
+        <i class="fas fa-bars"></i>
+      </label>
+      <ul class="lista-menu">
+        <li class="item-menu"><a class="link-menu">Portafolio</a></li>
+        <li class="item-menu"><a class="link-menu">Acerca de</a></li>
+        <li class="item-menu"><a class="link-menu">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="portada">
+    <div class="contenedor portada-contenido">
+      <img class="foto-perfil" src="img/foto.svg" alt="...">
+      <h1 class="titulo-grande">Bootstrap</h1>
+      <div class="separador separador-blanco">
+        <div class="linea"></div>
+        <div class="estrella"><i class="fas fa-star"></i></div>
+        <div class="linea"></div>
+      </div>
+      <p class="subtitulo">Artista Gráfico - Diseñador Web - Ilustrador</p>
+    </div>
+  </header>
+
+  <section class="seccion" id="portfolio">
+    <div class="contenedor">
+      <h2 class="titulo-seccion">Portafolio</h2>
+      <div class="separador">
+        <div class="linea"></div>
+        <div class="estrella"><i class="fas fa-star"></i></div>
+        <div class="linea"></div>
+      </div>
+      <div class="galeria">
+        <div class="proyecto">
+          <a class="tarjeta" href="#ventana1">
+            <div class="tarjeta-hover"><i class="fas fa-plus fa-3x"></i></div>
+            <img class="imagen-tarjeta" src="img/cabina.png" alt="...">
+          </a>
+        </div>
+        <div class="proyecto">
+          <a class="tarjeta" href="#ventana2">
+            <div class="tarjeta-hover"><i class="fas fa-plus fa-3x"></i></div>
+            <img class="imagen-tarjeta" src="img/pastel.png" alt="...">
+          </a>
+        </div>
+        <div class="proyecto">
+          <a class="tarjeta" href="#ventana3">
+            <div class="tarjeta-hover"><i class="fas fa-plus fa-3x"></i></div>
+            <img class="imagen-tarjeta" src="img/circo.png" alt="...">
+          </a>
+        </div>
+        <div class="proyecto">
+          <a class="tarjeta" href="#ventana4">
+            <div class="tarjeta-hover"><i class="fas fa-plus fa-3x"></i></div>
+            <img class="imagen-tarjeta" src="img/control.png" alt="...">
+          </a>
+        </div>
+        <div class="proyecto">
+          <a class="tarjeta" href="#ventana5">
+            <div class="tarjeta-hover"><i class="fas fa-plus fa-3x"></i></div>
+            <img class="imagen-tarjeta" src="img/cajaseguridad.png" alt="...">
+          </a>
+        </div>
+        <div class="proyecto">
+          <a class="tarjeta" href="#ventana6">
+            <div class="tarjeta-hover"><i class="fas fa-plus fa-3x"></i></div>
+            <img class="imagen-tarjeta" src="img/submarino.png" alt="...">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="seccion seccion-verde" id="about">
+    <div class="contenedor">
+      <h2 class="titulo-seccion titulo-blanco">Acerca de</h2>
+      <div class="separador separador-blanco">
+        <div class="linea"></div>
+        <div class="estrella"><i class="fas fa-star"></i></div>
+        <div class="linea"></div>
+      </div>
+      <div class="columnas-sobre-mi">
+        <div class="columna-sobre-mi">
+          <p class="texto-grande">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the
+            complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy
+            customization.</p>
+        </div>
+        <div class="columna-sobre-mi">
+          <p class="texto-grande">You can create your own custom avatar for the masthead, change the icon in the dividers, and
+            add your email address to the contact form to make it fully functional!</p>
+        </div>
+      </div>
+      <div class="centrar-boton">
+        <a class="boton boton-grande boton-blanco" href="https://startbootstrap.com/theme/freelancer/">
+          <i class="fas fa-download icono-boton"></i>
+          Free Download!
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="seccion" id="contact">
+    <div class="contenedor">
+      <h2 class="titulo-seccion">Contactame</h2>
+      <div class="separador">
+        <div class="linea"></div>
+        <div class="estrella"><i class="fas fa-star"></i></div>
+        <div class="linea"></div>
+      </div>
+      <div class="contacto-fila">
+        <form class="formulario">
+          <div class="campo">
+            <input class="campo-input" id="name" type="text" placeholder="Ingresa tu nombre completo">
+            <label for="name">Nombre Completo</label>
+          </div>
+          <div class="campo">
+            <input class="campo-input" id="email" type="email" placeholder="name@example.com">
+            <label for="email">Correo electronico</label>
+          </div>
+          <div class="campo">
+            <input class="campo-input" id="phone" type="tel" placeholder="(123) 456-7890">
+            <label for="phone">Número de telefono</label>
+          </div>
+          <div class="campo">
+            <textarea class="campo-input campo-mensaje" id="message" placeholder="Ingresa tu mensaje aquí..."></textarea>
+            <label for="message">Mensaje</label>
+          </div>
+          <button class="boton boton-verde boton-grande" type="submit" disabled>Enviar</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="pie-pagina">
+    <div class="contenedor">
+      <div class="columnas-footer">
+        <div class="columna-footer">
+          <h4 class="titulo-footer">Ubicación</h4>
+          <p class="texto-grande sin-margen">
+            2215 John Daniel Drive
+            <br>
+            Clark, MO 65243
+          </p>
+        </div>
+        <div class="columna-footer">
+          <h4 class="titulo-footer">Around the Web</h4>
+          <a class="boton boton-blanco boton-redes" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
+          <a class="boton boton-blanco boton-redes" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
+          <a class="boton boton-blanco boton-redes" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
+          <a class="boton boton-blanco boton-redes" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
+        </div>
+        <div class="columna-footer">
+          <h4 class="titulo-footer">About Freelancer</h4>
+          <p class="texto-grande sin-margen">
+            Freelance is a free to use, MIT licensed Bootstrap theme created by
+            <a href="http://startbootstrap.com">Start Bootstrap</a>
+            .
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="copyright">
+    <div class="contenedor"><small>Copyright &copy; Your Website 2023</small></div>
+  </div>
+
+  <div class="ventana" id="ventana1">
+    <div class="ventana-caja">
+      <div class="ventana-contenido">
+        <div class="ventana-arriba"><a class="cerrar-ventana" href="#portfolio"></a></div>
+        <div class="ventana-cuerpo">
+          <div class="ventana-info">
+            <h2 class="titulo-seccion">Log Cabin</h2>
+            <div class="separador">
+              <div class="linea"></div>
+              <div class="estrella"><i class="fas fa-star"></i></div>
+              <div class="linea"></div>
+            </div>
+            <img class="imagen-ventana" src="img/cabina.png" alt="...">
+            <p class="texto-ventana">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam
+              nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae?
+              Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+            <a class="boton boton-verde" href="#portfolio">
+              <i class="fas fa-xmark fa-fw"></i>
+              Close Window
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ventana" id="ventana2">
+    <div class="ventana-caja">
+      <div class="ventana-contenido">
+        <div class="ventana-arriba"><a class="cerrar-ventana" href="#portfolio"></a></div>
+        <div class="ventana-cuerpo">
+          <div class="ventana-info">
+            <h2 class="titulo-seccion">Tasty Cake</h2>
+            <div class="separador">
+              <div class="linea"></div>
+              <div class="estrella"><i class="fas fa-star"></i></div>
+              <div class="linea"></div>
+            </div>
+            <img class="imagen-ventana" src="img/pastel.png" alt="...">
+            <p class="texto-ventana">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam
+              nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae?
+              Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+            <a class="boton boton-verde" href="#portfolio">
+              <i class="fas fa-xmark fa-fw"></i>
+              Close Window
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ventana" id="ventana3">
+    <div class="ventana-caja">
+      <div class="ventana-contenido">
+        <div class="ventana-arriba"><a class="cerrar-ventana" href="#portfolio"></a></div>
+        <div class="ventana-cuerpo">
+          <div class="ventana-info">
+            <h2 class="titulo-seccion">Circus Tent</h2>
+            <div class="separador">
+              <div class="linea"></div>
+              <div class="estrella"><i class="fas fa-star"></i></div>
+              <div class="linea"></div>
+            </div>
+            <img class="imagen-ventana" src="img/circo.png" alt="...">
+            <p class="texto-ventana">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam
+              nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae?
+              Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+            <a class="boton boton-verde" href="#portfolio">
+              <i class="fas fa-xmark fa-fw"></i>
+              Close Window
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ventana" id="ventana4">
+    <div class="ventana-caja">
+      <div class="ventana-contenido">
+        <div class="ventana-arriba"><a class="cerrar-ventana" href="#portfolio"></a></div>
+        <div class="ventana-cuerpo">
+          <div class="ventana-info">
+            <h2 class="titulo-seccion">Controller</h2>
+            <div class="separador">
+              <div class="linea"></div>
+              <div class="estrella"><i class="fas fa-star"></i></div>
+              <div class="linea"></div>
+            </div>
+            <img class="imagen-ventana" src="img/control.png" alt="...">
+            <p class="texto-ventana">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam
+              nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae?
+              Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+            <a class="boton boton-verde" href="#portfolio">
+              <i class="fas fa-xmark fa-fw"></i>
+              Close Window
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ventana" id="ventana5">
+    <div class="ventana-caja">
+      <div class="ventana-contenido">
+        <div class="ventana-arriba"><a class="cerrar-ventana" href="#portfolio"></a></div>
+        <div class="ventana-cuerpo">
+          <div class="ventana-info">
+            <h2 class="titulo-seccion">Locked Safe</h2>
+            <div class="separador">
+              <div class="linea"></div>
+              <div class="estrella"><i class="fas fa-star"></i></div>
+              <div class="linea"></div>
+            </div>
+            <img class="imagen-ventana" src="img/cajaseguridad.png" alt="...">
+            <p class="texto-ventana">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam
+              nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae?
+              Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+            <a class="boton boton-verde" href="#portfolio">
+              <i class="fas fa-xmark fa-fw"></i>
+              Close Window
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ventana" id="ventana6">
+    <div class="ventana-caja">
+      <div class="ventana-contenido">
+        <div class="ventana-arriba"><a class="cerrar-ventana" href="#portfolio"></a></div>
+        <div class="ventana-cuerpo">
+          <div class="ventana-info">
+            <h2 class="titulo-seccion">Submarine</h2>
+            <div class="separador">
+              <div class="linea"></div>
+              <div class="estrella"><i class="fas fa-star"></i></div>
+              <div class="linea"></div>
+            </div>
+            <img class="imagen-ventana" src="img/submarino.png" alt="...">
+            <p class="texto-ventana">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam
+              nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae?
+              Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+            <a class="boton boton-verde" href="#portfolio">
+              <i class="fas fa-xmark fa-fw"></i>
+              Close Window
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
